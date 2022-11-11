@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <fieldset>
+            <legend>Casdastro Inicial</legend>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" value="Usuario001" readonly="readonly" />
+            <br />
+
+            <label for="senha">Senha:</label>
+            <input id="senha" type="password" disabled="disabled" />
+            <br />
+
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" checked="checked" value="M" />Masculino
+            <input type="radio" name="sexo" value="F" />Feminino
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferência</legend>
+            <label>Assuntos de Interesse</label>
+            <br />
+            <input type="checkbox" name="assuntos" value="html" />HTML <br />
+            <input type="checkbox" name="assuntos" value="css" />CSS <br />
+            <input type="checkbox" name="assuntos" value="php" />PHP <br />
+
+            <label>Anexas arquivo</label>
+            <input type="file" />
+            <br />
+
+            <label for="pais">País de origem</label>
+            <select name="pais_origem" id="pais" />
+                <option value="BR">BRASIL</option>
+                <option value="AR">ARGENTINA</option>
+            <select/>
+            <br />
+
+            <label for="editores_nagegadores">Editores e Navegadores</label>
+            <select name="edit_nav" id="editores_nagegadores" />
+                <optgroup label="Editores">
+                    <option value="notepadplusplus">Motepad++</option>
+                    <option value="sublimetex">Sublime</option>
+                </optgroup>
+                <optgroup label="Navegadores">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="Firefox">Mozilla Firefox</option>
+                </optgroup>
+            <select/>
+            <br />
+
+            <label for="comentarios">Comentários</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+
+
+            <br />
+        </fieldset>
+
+    </form>
+</body>
+</html>
