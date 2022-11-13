@@ -1,0 +1,19 @@
+/*Seletores combinados*/
+div p em {
+    color: blue;
+}
+
+/* Seletores adjacentes*/
+div h2 + p {
+    background-color: yellow;
+}
+
+/*filho descendente*/
+.descendentes strong {
+    color: red;
+}
+
+/*filho direto*/
+.filho > strong {
+    font-size: 32px;
+}
