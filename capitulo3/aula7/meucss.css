@@ -1,3 +1,21 @@
+body {
+    /*background-color: #bbb;
+    background-image: url(scotland.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;*/
+
+    /*short hand*/
+    background: #bbb url(scotland.jpg) repeat top right;
+}
+
+div {
+    border: 1px solid;
+    padding: 25px;
+    margin: 5px;
+    font-size: 22px;
+}
+
 .hexa {
     background-color: #DD0099;
 }
@@ -7,5 +25,29 @@
 }
 
 .rgb {
-    background-color: rgb(255,128, 36);
+    background-color: rgb(255, 128, 36);
+}
+
+.rgb_percentual {
+    background-color: rgb(100%, 20%, 10% );
+}
+
+.rgba {
+    background-color: rgba(255, 128, 36, 0.8);
+}
+
+.hsl {
+    background-color: hsl(210, 100%, 40%)
+}
+
+.hsla {
+    background-color: hsla(210, 100%, 40%, 0.5)
+}
+
+.transparente {
+    background-color: transparent;
+}
+
+.palavra {
+    background-color: orange;
 }
