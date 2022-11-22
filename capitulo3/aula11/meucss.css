@@ -1,0 +1,10 @@
+* {
+    font-size: 32px;
+    margin: 0;
+}
+
+.boxabsoluta {
+    background-color: red;
+    width: 760px;
+    font-size: 2em;/* 32px x 2 = 64px*/
+}
