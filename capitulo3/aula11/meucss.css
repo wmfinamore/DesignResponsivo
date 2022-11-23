@@ -8,3 +8,26 @@
     width: 760px;
     font-size: 2em;/* 32px x 2 = 64px*/
 }
+
+.boxrelativa {
+    background-color: green;
+    border: 2px solid black;
+    margin-left: 1em;/* relativo ao tamanho do texto*/
+    width: 50%;
+}
+
+.paragrafo {
+    font-size: 32px;
+}
+
+.paragrafo-rem {
+    font-size: 2em;/* 32 x 2 = 64px */
+}
+
+span {
+    font-size: 2em;/* 2 x 64(tamanho do elemento pai) = 128px */
+}
+
+em {
+    font-size: 2rem; /* 2 x 32(tamanho do elemento raiz/root) = 64px */
+}
