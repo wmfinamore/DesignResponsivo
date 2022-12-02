@@ -46,6 +46,42 @@
             <div>Hat Shop</div>
         </div>
     </header>
+    <main>
+        <div>
+            <h1>Entre em contato conosco!</h1>
+            <h3>Dúvidas, sugestões, reclamações e outros assuntos</h3>
+            <form action="#" method="get">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" required="required" />
+                </div>
+                <div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" required="required" />
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" name="telefone" maxlength="15"
+                               pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3-4}$" />
+<!--                                (XX)XXXXX-XXXX-->
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <input id="assunto" type="text" name="assunto" required="required"/>
+                    </div>
+                    <div>
+                        <label for="textarea">Mensagem</label>
+                        <textarea id="textarea" name="textarea" maxlength="500" required="required"></textarea>
+                    </div>
+                    <div>
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
     <footer>
         <div>
             <p>&copy; Copyright. Hat Shop. Todos os direitos reservados.</p>
