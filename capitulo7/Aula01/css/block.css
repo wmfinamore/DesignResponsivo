@@ -1,3 +1,20 @@
+/*Header*/
+.block_header {
+    padding-top: 8px;
+    height: 110px;
+    border-bottom: 2px solid #fff;
+
+    background-color: #ffa000;
+}
+
+.block_header--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
 /*Footer*/
 .block-footer {
     padding: 20px 0;
@@ -6,4 +23,12 @@
 
     color: #fff;
     text-align: center;
+}
+
+/* Header menu */
+.header-menu, .header-submenu {
+    margin: 0;
+
+    font-size: 1.6rem;
+    list-style: none;
 }
