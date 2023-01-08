@@ -6,35 +6,37 @@
     <title>Hat Shop - Login</title>
     <link rel="stylesheet" type="text/css" href="css/extends/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/principal.css" />
+    <link rel="stylesheet" type="text/css" href="css/block.css" />
+    <link rel="stylesheet" type="text/css" href="css/element.css" />
 </head>
 <body>
-        <header>
-        <div>
-            <div>
+        <header class="block_header block_header--fixed">
+        <div class="container">
+            <div class="block-header__logomarca">
                 <a href="index.html">
                     <img src="imagens/logomarca/logo.jpg" width="99" height="68" alt="Hat Shop"/>
                 </a>
             </div>
 
-            <div>
-                <ul>
+            <div class="block-header__menu">
+                <ul class="header-menu">
                     <a href="index.html">
-                        <li>Home</li>
+                        <li class="header-menu__item">Home</li>
                     </a>
                     <a href="sobre.html">
-                        <li>Sobre</li>
+                        <li class="header-menu__item">Sobre</li>
                     </a>
                     <a href="contato.html">
-                        <li>Contato</li>
+                        <li class="header-menu__item">Contato</li>
                     </a>
-                    <a href="">
+                    <a href="" class="header-menu__item--button">
                         <li>Restrito
-                            <ul>
+                            <ul class="header-submenu">
                                 <a href="login.html">
-                                    <li>Login</li>
+                                    <li class="header-submenu__item">Login</li>
                                 </a>
                                 <a href="cadastro.html">
-                                    <li>Cadastro</li>
+                                    <li class="header-submenu__item">Cadastro</li>
                                 </a>
                             </ul>
                         </li>
@@ -42,31 +44,31 @@
                 </ul>
             </div>
 
-            <div>Hat Shop</div>
+            <div class="block-header_descricao">Hat Shop</div>
         </div>
     </header>
 
-    <main>
-        <div>
-            <h1>Acesse sua conta</h1>
+    <main class="block-form--login">
+        <div class="container form--login">
+            <h1 class="form__titulo">Acesse sua conta</h1>
             <form action="#" method="post">
-                <div>
+                <div class="form-group">
                     <label for="login">Login</label>
-                    <input id="login" type="text" name="login" required="required" />
+                    <input id="login" type="text" name="login" class="form-control" required="required" />
                 </div>
-                <div>
+                <div  class="form-group">
                     <label for="senha">Senha</label>
-                    <input id="senha" type="password" name="senha" required="required" />
+                    <input id="senha" type="password" name="senha" class="form-control" required="required" />
                 </div>
-                <div>
-                    <button type="submit">Entrar</button>
+                <div   class="form-group">
+                    <button type="submit" class="form__process">Entrar</button>
                 </div>
             </form>
         </div>
     </main>
 
-    <footer>
-        <div>
+    <footer class="block-footer">
+        <div class="container">
             <p>&copy; Copyright. Hat Shop. Todos os direitos reservados.</p>
         </div>
     </footer>

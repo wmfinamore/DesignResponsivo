@@ -198,8 +198,8 @@
     text-align: center;
 }
 
-.form_clear,
-.form_process {
+.form__clear,
+.form__process {
     border: 0;
     padding: 5px 15px;
 
@@ -208,7 +208,7 @@
     background-color: #046;
 }
 
-.form_clear:hover, .form_clear:focus,
-.form_process:hover, .form_process:focus {
+.form__clear:hover, .form__clear:focus,
+.form__process:hover, .form__process:focus {
     background-color: #f00;
 }
